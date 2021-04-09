@@ -1,2 +1,1 @@
-# tindog
-A sample web design I made using Bootstrap :) 
+TinDog Starting Files

@@ -1,0 +1,178 @@
+        body {
+            font-family: "Century Gothic";
+        }
+        
+        #title {
+            background-color: brown;
+            color: #fff;
+        }
+        
+        @media (max-width:1028px) {
+            .title-img {
+                position: relative;
+                transform: rotate(-45deg);
+            }
+        }
+        
+        .container-fluid {
+            padding: 3% 15%;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+        /* Nav Bar */
+        
+        .navbar {
+            padding-bottom: 4.5rem;
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+        }
+        
+        .nav-item {
+            padding: 20px;
+        }
+        
+        .nav-link {
+            font-size: 1em;
+        }
+        /* Title */
+        
+        .download button {
+            margin: 20px;
+        }
+        
+        .title-img {
+            top: 100px;
+            width: 60%;
+            transform: rotate(45deg);
+            transition: ease-in-out all 900ms;
+        }
+
+
+        .title-img:hover {
+            cursor: pointer;
+            transform: rotate(40deg);
+        }
+        /* Features */
+                #features {
+            position: relative;
+            top: -60px;
+            padding: 7% 15%;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            line-height: 1.5em;
+            text-align: center;
+            background-color: white;
+        }
+
+        
+       #feature h3 {
+            font-size: 2em;
+            color:black;
+        }
+        
+       #feature p {
+            font-size: 2em;
+            color: gray;
+        }
+        
+        .features-box {
+            padding: 7%;
+        }
+        
+        .icon {
+            color: indianred;
+        }
+        /* Testimonials*/
+        
+        #testimonials {
+            background-color: indianred;
+            text-align: center;
+        }
+        
+        #testimonials h2 {
+            color: #fff;
+            font-size: 3em;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            line-height: 2em;
+        }
+        
+        .testimonial-text {
+            font-size: 3em;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            line-height: 2em;
+        }
+        
+        .dog-img {
+            width: 10%;
+            border-radius: 100%;
+            margin: 10px;
+        }
+        
+        .lady-image {
+            width: 10%;
+        }
+        
+        .carousel-inner {
+            padding: 7% 15%;
+        }
+        /*ection id="press"*/
+        
+        #press {
+            background-color: indianred;
+            text-align: center;
+            padding-bottom: 5%;
+        }
+        
+        .press-logo {
+            width: 15%;
+            margin: 5% 1%;
+        }
+        /*pricing*/
+        
+        #pricing {
+            padding: 5vw;
+            
+        }
+        
+        #pricing h2 {
+            font-size: 3rem;
+        }
+        
+        #pricing p {
+            font-size: 1.4em;
+        }
+        
+        #pricing .card .header {
+            padding: 2em;
+            text-align: center;
+        }
+        
+        #pricing .card .body {
+            padding: 2em;
+        }
+        /* cta */
+        
+        #cta {
+            background-color: indianred;
+            padding: 5% 7%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        #cta h3 {
+            color: #fff;
+            font-size: 3.5em;
+            line-height: 1.5m;
+            text-align: center;
+        }
+        /*footer*/
+        
+        #footer {
+            padding: 7% 15%;
+            text-align: center;
+            margin: 20px 10px;
+            font-size: 2em
+        }
